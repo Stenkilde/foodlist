@@ -221,7 +221,6 @@ module.exports = function (grunt) {
         express: {
             options: {
                 // Override defaults here
-                port: 9001,
             },
             dev: {
                     options: {
