@@ -18,7 +18,7 @@ module.exports = function (grunt) {
         yeoman: {
             app: 'public',
             dist: 'dist',
-            ip: '0.0.0.0'
+            ip: '127.0.0.1'
         },
         watch: {
             compass: {
@@ -217,6 +217,28 @@ module.exports = function (grunt) {
                 'compass',
                 'copy:styles'
             ]
+        },
+        express: {
+            options: {
+                // Override defaults here
+                port: 9001,
+            },
+            dev: {
+                    options: {
+                    script: 'server.js'
+                }
+            },
+            prod: {
+                options: {
+                    script: 'server.js',
+                    node_env: 'production'
+                }
+            },
+            test: {
+                options: {
+                    script: 'server.js'
+                }
+            }
         }
     });
 

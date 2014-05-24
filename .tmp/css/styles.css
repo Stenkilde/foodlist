@@ -9485,8 +9485,6 @@ form .row .row.collapse .columns {
   }
 }
 
-
-
 @media -sass-debug-info {
   filename {
     font-family: file\:\/\/\/var\/www\/foodlist\/public\/bower_components\/foundation\/scss\/foundation\/components\/_forms\.scss;
@@ -9965,6 +9963,7 @@ textarea {
   width: 100%;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  -webkit-transition: box-shadow 0.45s, border-color 0.45s ease-in-out;
   transition: box-shadow 0.45s, border-color 0.45s ease-in-out;
 }
 
