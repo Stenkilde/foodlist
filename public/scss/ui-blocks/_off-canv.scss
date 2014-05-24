@@ -1,0 +1,23 @@
+.off-canv {
+	position: fixed;
+	width: 280px;
+	background-color: tomato;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	transform: translateX(-280px);
+	&.is-open {
+		transform: translateX(0);
+	}
+	@media #{$medium-up} {
+		transform: translateX(0);
+	}
+}
+
+.canv {
+	position: relative;
+	background: teal;
+	@media #{$medium-up} {
+		margin-left: 280px;
+	}
+}

@@ -8147,3 +8147,10 @@ html .font-secondary, body .font-secondary {
 .ws-large {
   padding: 1.875rem;
 }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oliverstenkilde\/Documents\/Git\%20Project\/foodlist\/public\/scss\/ui-blocks\/_off-canv\.scss}line{font-family:\000031}}
+.off-canv {
+  position: fixed;
+  width: 280px;
+  background-color: tomato;
+}

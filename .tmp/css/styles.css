@@ -9486,6 +9486,8 @@ form .row .row.collapse .columns {
   }
 }
 
+
+
 @media -sass-debug-info {
   filename {
     font-family: file\:\/\/\/Users\/oliverstenkilde\/Documents\/Git\%20Project\/foodlist\/public\/bower_components\/foundation\/scss\/foundation\/components\/_forms\.scss;
@@ -9964,7 +9966,6 @@ textarea {
   width: 100%;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-transition: box-shadow 0.45s, border-color 0.45s ease-in-out;
   transition: box-shadow 0.45s, border-color 0.45s ease-in-out;
 }
 
@@ -20114,4 +20115,91 @@ body .font-secondary {
 
 .ws-large {
   padding: 1.875rem;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/oliverstenkilde\/Documents\/Git\%20Project\/foodlist\/public\/scss\/ui-blocks\/_off-canv\.scss;
+  }
+
+  line {
+    font-family: \000031;
+  }
+}
+
+.off-canv {
+  position: fixed;
+  width: 280px;
+  background-color: tomato;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  -webkit-transform: translateX(-280px);
+  -ms-transform: translateX(-280px);
+  transform: translateX(-280px);
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/oliverstenkilde\/Documents\/Git\%20Project\/foodlist\/public\/scss\/ui-blocks\/_off-canv\.scss;
+  }
+
+  line {
+    font-family: \000039;
+  }
+}
+
+.off-canv.is-open {
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+@media only screen and (min-width: 40.063em) {
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/oliverstenkilde\/Documents\/Git\%20Project\/foodlist\/public\/scss\/ui-blocks\/_off-canv\.scss;
+    }
+
+    line {
+      font-family: \000031;
+    }
+}
+
+  .off-canv {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/oliverstenkilde\/Documents\/Git\%20Project\/foodlist\/public\/scss\/ui-blocks\/_off-canv\.scss;
+  }
+
+  line {
+    font-family: \0000317;
+  }
+}
+
+.canv {
+  position: relative;
+  background: teal;
+}
+
+@media only screen and (min-width: 40.063em) {
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/oliverstenkilde\/Documents\/Git\%20Project\/foodlist\/public\/scss\/ui-blocks\/_off-canv\.scss;
+    }
+
+    line {
+      font-family: \0000317;
+    }
+}
+
+  .canv {
+    margin-left: 280px;
+  }
 }

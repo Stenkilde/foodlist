@@ -54,7 +54,7 @@ module.exports = function (grunt) {
                 options: {
                     open: true,
                     base: [
-                    	'.tmp',
+                        '.tmp',
                         '<%= yeoman.app %>'
                     ]
                 }
@@ -63,7 +63,7 @@ module.exports = function (grunt) {
         compass: {
             options: {
                 sassDir: '<%= yeoman.app %>/scss',
-                cssDir: 'public/css',
+                cssDir: '.tmp/css',
                 generatedImagesDir: '<%= yeoman.app %>/.tmp/images/generated',
                 imagesDir: '<%= yeoman.app %>/images',
                 javascriptsDir: '<%= yeoman.app %>/scripts',
@@ -117,7 +117,7 @@ module.exports = function (grunt) {
             }
         },
         clean: {
-        	dist: {
+            dist: {
                 files: [{
                     dot: true,
                     src: [
@@ -186,7 +186,7 @@ module.exports = function (grunt) {
             uglify: true
         },
         copy: {
-        	dist: {
+            dist: {
                 files: [{
                     expand: true,
                     dot: true,

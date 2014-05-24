@@ -6,23 +6,21 @@
         <title>foodlist</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-        <!-- build:css(.tmp) css/styles.css -->
         <link rel="stylesheet" type="text/css" href="css/styles.css">
-        <!-- endbuild -->
         <!-- build:js scripts/modernizr.js -->
         <script src="bower_components/modernizr/modernizr.js"></script>
         <!-- endbuild -->
     </head>
     <body ng-app="sampleApp" ng-controller="NerdController">
         
-        <a class="navbar-brand" href="/">TAKE ME HOME!</a>
-        <ul class="side-nav">
+        <ul class="off-canv">
+            <li><a href="/">Take me home</a></li>
             <li><a href="/nerds">Nerds</a></li>
             <li><a href="/geeks">Geeks</a></li>
         </ul>
 
 
-        <div ng-view></div>
+        <div class="canv" ng-view></div>
 
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
