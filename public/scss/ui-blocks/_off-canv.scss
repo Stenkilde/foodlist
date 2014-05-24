@@ -6,6 +6,7 @@
 	margin: 0;
 	padding: 0;
 	transform: translateX(-280px);
+	transition: transform 0.3s ease-in-out;
 	&.is-open {
 		transform: translateX(0);
 	}
@@ -17,7 +18,20 @@
 .canv {
 	position: relative;
 	background: teal;
+	transition: transform 0.3s ease-in-out;
+	&.is-open {
+		transform: translateX(280px);
+	}
 	@media #{$medium-up} {
 		margin-left: 280px;
+	}
+}
+
+.mobile-trigger {
+	display: block;
+	font-size: 32px;
+	padding: 20px;
+	@media #{$medium-up} {
+		display: none;
 	}
 }
