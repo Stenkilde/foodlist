@@ -16,7 +16,7 @@ module.exports = function (grunt) {
     grunt.initConfig({
         // configurable paths
         yeoman: {
-            app: 'app',
+            app: 'public',
             dist: 'dist',
             ip: '0.0.0.0'
         },

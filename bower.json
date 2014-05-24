@@ -4,7 +4,9 @@
   "dependencies": {
     "modernizr": "~2.6.2",
     "jquery": "~1.10.2",
-    "foundation": "~5.0.3"
+    "foundation": "~5.0.3",
+    "angular": "latest",
+    "angular-route": "latest"
   },
   "resolutions": {
     "jquery": ">= 2.0.0"
